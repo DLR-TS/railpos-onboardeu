@@ -43,11 +43,12 @@ The software is intended to be used to calculate positions and motion informatio
 <img src="data/figures/Journey_00_example_readme_input.png" alt="Fig1" width="800"/>
 <figcaption><b>Figure 1:</b> Input data to the positioning pipeline.</figcaption>
 </figure>
+<br>
 <figure>
 <img src="data/figures/Journey_00_example_readme_output.png" alt="Fig2" width="800"/>
 <figcaption><b>Figure 2:</b> Output speed, velocity and path distances together with the input GNSS data.</figcaption>
 </figure>
-
+<br>
 <figure>
 <img src="data/figures/Journey_00_example_readme_input_output_map.png" alt="Fig2" width="800"/>
 <figcaption><b>Figure 3:</b> Input GNSS positions and timestamps (colormap corresponding to the timestamps in red) together with output positions and speed.</figcaption>
