@@ -11,7 +11,7 @@ railpos-onboardeu.
 
 This project provides tools for railway vehicle positioning. The software was used to generate offline motion and position information of multiple trams in various European cities within the mFUND project OnboardEU. The repository consists of two modules: a general positioning module named `railpos` and a project-specific module called `onboardeu`. The former contains general functionalities for rail vehicle positioning; the latter contains project and data specific helper functions together with an example notebook to demonstrate the usage of the software. The example notebook is provided [here](https://github.com/DLR-TS/railpos-onboardeu/blob/main/onboardeu/onboardeu_001_example.ipynb). The software was published together with open source data which is available here (add link). Theoretical background can be found in this [publication](https://doi.org/10.23919/ICIF.2018.8455377). The positioning pipeline mainly consists of the following steps: First, a railway path for the data is selected. Second, an on-path Kalman filter (and smoother) is applied. Finally, the output is calculated. It contains speed and velocity, travelled distances with respect to the path, track identifiers and track distances referring to the utilised railway network as well as absolute positions (longitude and latitude).
 
-The `railpos` core is currently being further developed [here](https://github.com/DLR-TS/railpos).
+The `railpos` core module is currently being further developed [here](https://github.com/DLR-TS/railpos).
 
 
 ## Installation
