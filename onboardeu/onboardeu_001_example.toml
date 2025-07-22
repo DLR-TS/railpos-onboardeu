@@ -1,0 +1,10 @@
+map_filepath = "data/braunschweig_port_railway_network.gpkg"
+data_filepath = "data/onboardeu_001.h5"
+tsamp = 0.01
+acc_var = 2.25
+speed_var = 0.25
+pos_var = 1
+dpert = 0.5
+thr_meter = 30
+nsat_min = 10
+accuracy_horizontal_max = 10
