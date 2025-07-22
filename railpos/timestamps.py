@@ -157,9 +157,9 @@ def time_association(time_target: np.ndarray, time_input: np.ndarray, causal: bo
     Returns
     -------
     ind_input : np.ndarray
-        Vector with n_input entries.
+        For each index of time_input, the assigned index of time_target.
     time_associated : np.ndarray
-        DESCRIPTION.
+        For each index of time_input, the associated time of the target vector.
 
     """
 

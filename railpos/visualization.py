@@ -170,12 +170,12 @@ def create_linear_colormap(color_list: list = None, **kwargs):
     color_list : list, optional
         Colors for the colormap creation. The default is ["orange", "red", "blue"].
     ** kwargs:
-        Keyword arguments to be handed over to cm.LinearColormap.
+        Keyword arguments to be handed over to cm.LinearColormap, e.g., vmin, vmax, caption or max_labels.
 
     Returns
     -------
     cmap : branca.colormap.LinearColormap
-        Linear colormap using the given colors and v_min, v_max.
+        Linear colormap using the given colors.
 
     """
     if color_list is None:
